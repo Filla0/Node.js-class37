@@ -41,6 +41,7 @@ describe("/weather", () => {
       }
     );
   });
+
   describe("given a city name is", () => {
     it("should response with 404 status code", async () => {
       const response = await request
